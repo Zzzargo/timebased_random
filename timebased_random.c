@@ -9,7 +9,7 @@ int main()
     int start = t0;
     srand(time(NULL));
 
-    printf("Cate numere doriti? // 0 - 255 //: ");
+    printf("Cate numere doriti? (0-255) ");
     scanf("%d", &a);
     while (t1 < start + a)
     {
